@@ -1,0 +1,19 @@
+{
+  "name": "modern-age-widgets",
+  "version": "1.0.0",
+  "description": "A collection of Figma Widgets by Modern Age Digital",
+  "scripts": {
+    "build:testwidget": "esbuild widgets/testwidget/src/code.tsx --bundle --outfile=widgets/testwidget/dist/code.js --target=es6",
+    "tsc": "tsc --noEmit -p widgets/**/src",
+    "watch:testwidget": "npm run build-testwidget -- --watch",
+    "build": "npm run build:testwidget"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@figma/widget-typings": "*",
+    "esbuild": "*",
+    "typescript": "*"
+  }
+}
