@@ -4,8 +4,10 @@
   "description": "A collection of Figma Widgets by Modern Age Digital",
   "scripts": {
     "build:testwidget": "esbuild widgets/testwidget/src/code.tsx --bundle --outfile=widgets/testwidget/dist/code.js --target=es6",
+    "build:headinglabel": "esbuild widgets/headinglabel/src/code.tsx --bundle --outfile=widgets/headinglabel/dist/code.js --target=es6",
     "tsc": "tsc --noEmit -p widgets/**/src",
     "watch:testwidget": "npm run build-testwidget -- --watch",
+    "watch:headinglabel": "npm run build:headinglabel -- --watch",
     "build": "npm run build:testwidget"
   },
   "author": "",

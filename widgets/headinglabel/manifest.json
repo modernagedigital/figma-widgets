@@ -1,6 +1,6 @@
 {
-  "name": "Test Widget",
-  "id": "1328754178243005465",
+  "name": "Heading label",
+  "id": "1328754178243005462",
   "api": "1.0.0",
   "main": "dist/code.js",
   "capabilities": [],
